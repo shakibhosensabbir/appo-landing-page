@@ -1,0 +1,81 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header__box h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .header__box p {
+         margin-top: 10px;
+         margin-bottom: 10px; 
+    }
+    .section__title h2{
+        font-size: 30px;
+    }
+    .get__more__box.get__more__margin {
+        margin-top: 60px;
+    }
+    .get__more__margin {
+        margin: 0px 60px;
+    }
+    .get__more__margin h2 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+    .code__box h2 {
+        font-size: 30px;
+        line-height: 60px;
+        margin-bottom: 10px;
+    }
+    .everything__box h2 {
+        font-size: 30px;
+    }
+    .main__btn button {
+        margin-bottom: 30px;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .header__box img {
+        display: none;
+    }
+    .section__title h2{
+        font-size: 28px;
+    }
+    .get__more__margin {
+        margin: 0px 80px;
+    }
+    .get__more__margin h2 {
+        font-size: 42px;
+        line-height: 50px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    .code__box img {
+        margin-top: 30px;
+        max-width: 450px;
+    }
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
